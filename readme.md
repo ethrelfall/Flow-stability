@@ -7,5 +7,5 @@ In that paper it's shown that there are interesting harmonic perturbations for R
 
 The question is why the Firedrake perturbation analysis does not find an unstable or oscillatory eigenmode in the neighbourhood of $Ra = 3.4 \times 10^5$.  
 
-A very similar script (farrell.py) was used to find a bifurcation instability in the heated-from-below Rayleigh-Benard convection case, with results agreeing with the analysis in Section IV.A of the paper *Bifurcation analysis of two-dimensional Rayleigh-Benard convection using deflation*.  Note this is not quite the same type of instability (bifurcation not turbulent transition).
+A very similar script (farrell.py) was used to find a bifurcation instability in the heated-from-below Rayleigh-Benard convection case, with results agreeing with the analysis in Section IV.A of the paper *Bifurcation analysis of two-dimensional Rayleigh-Benard convection using deflation* by Boulle, Dallas, and Farrell.  Note this is not quite the same type of instability (bifurcation not turbulent transition).
 

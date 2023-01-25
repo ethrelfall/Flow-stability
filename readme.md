@@ -2,7 +2,7 @@
 
 script zucatti.py: this is an attempt at implementing perturbation analysis of convective flows as in *Assessment of reduced-order modeling strategies for convective heat transfer*, V. Zucatti et al.
 
-In that paper it's shown that there are interesting harmonic perturbations for Rayleigh number $Ra = 3.4 \times 10^5$, shown here by modelling the same system using the *Nektar++* spectral / hp element code.
+In that paper it's shown that there are interesting harmonic perturbations for Rayleigh number $Ra = 3.4 \times 10^5$, shown here by modelling the same system using the *Nektar++* spectral / hp element code.  The figure shows (L-R) fluctuation in temperature, vertical velocity component, horizontal velocity component.
 
 ![Zucatti_flucts_nektarpp](png/Zucatti_flucts_nektarpp.png "Time-harmonic fluctuation in the temperature field for $Ra = 3.4 \times 10^5$ found by Zucatti et al and reproduced in *Nektar++*.")
 

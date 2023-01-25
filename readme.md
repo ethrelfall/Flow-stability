@@ -4,6 +4,7 @@ script zucatti.py.  This is an attempt at implementing perturbation analysis of 
 
 In that paper it's shown that there are interesting harmonic perturbations for Rayleigh number $Ra = 3.4 \times 10^5$, shown here by modelling the same system using the *Nektar++* spectral / hp element code.
 
+![Zucatti_flucts_nektarpp](png/Zucatti_flucts_nektarpp.png "Time-harmonic fluctuation in the temperature field for $Ra = 3.4 \times 10^5$ found by Zucatti et al and reproduced in *Nektar++*.")
 
 The question is why the Firedrake perturbation analysis does not find an unstable or oscillatory eigenmode in the neighbourhood of $Ra = 3.4 \times 10^5$.  
 

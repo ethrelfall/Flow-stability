@@ -1,6 +1,6 @@
-Repository for stability analysis of some fluid flows.
+#Repository for stability analysis of some fluid flows.
 
-script zucatti.py.  This is an attempt at implementing perturbation analysis of convective flows as in *Assessment of reduced-order modeling strategies for convective heat transfer*, V. Zucatti et al.
+script zucatti.py: this is an attempt at implementing perturbation analysis of convective flows as in *Assessment of reduced-order modeling strategies for convective heat transfer*, V. Zucatti et al.
 
 In that paper it's shown that there are interesting harmonic perturbations for Rayleigh number $Ra = 3.4 \times 10^5$, shown here by modelling the same system using the *Nektar++* spectral / hp element code.
 

@@ -1,4 +1,4 @@
-#Repository for stability analysis of some fluid flows.
+# Repository for stability analysis of some fluid flows
 
 script zucatti.py: this is an attempt at implementing perturbation analysis of convective flows as in *Assessment of reduced-order modeling strategies for convective heat transfer*, V. Zucatti et al.
 

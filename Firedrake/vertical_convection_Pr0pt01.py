@@ -14,8 +14,8 @@ except ImportError:
 
 import math
 
-M = Mesh("vertical_convection_Pr0pt01_40.msh")  # 40*40, stretched in x and y warp factor w=12
-#M = Mesh("vertical_convection_Pr0pt01_80.msh") #80*80, warp factor 12 
+M = Mesh("vertical_convection_40.msh")  # 40*40, stretched in x and y warp factor w=12
+#M = Mesh("vertical_convection_80.msh") #80*80, warp factor 12 
 
 V = VectorFunctionSpace(M, "CG", 6)
 W = FunctionSpace(M, "CG", 5)

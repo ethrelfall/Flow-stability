@@ -6,7 +6,7 @@ In that paper it's shown that there are interesting harmonic perturbations for R
 
 ![Zucatti_flucts_nektarpp](png/Zucatti_flucts_nektarpp.png "Time-harmonic fluctuation in the temperature field for $Ra = 3.4 \times 10^5$ found by Zucatti et al and reproduced in *Nektar++*.")
 
-The question is why the Firedrake perturbation analysis does not find an unstable or oscillatory eigenmode in the neighbourhood of $Ra = 3.4 \times 10^5$.  Admittedly the paper using a rather high element order compared to that in the script, but one would expect to see *something* at lower order (right?) ...
+The question is why the Firedrake perturbation analysis does not find an unstable or oscillatory eigenmode in the neighbourhood of $Ra = 3.4 \times 10^5$.  Admittedly the paper uses a rather high element order compared to that in the script, but one would expect to see *something* at lower order (right?) ...
 
 A very similar script (farrell.py) was used to find a bifurcation instability in the heated-from-below Rayleigh-Benard convection case, with results roughly agreeing with the analysis in Section IV.A of the paper *Bifurcation analysis of two-dimensional Rayleigh-Benard convection using deflation* by Boulle, Dallas, and Farrell.  Note this is not quite the same type of instability (bifurcation not turbulent transition); the birfurcation case has the eigenvalue transitioning from real positive to real negative while the turbulent transition is expected (on the basis of the results in Zucatti et al, and also see below) to be associated with the appearance of oscillatory behaviour.
 
